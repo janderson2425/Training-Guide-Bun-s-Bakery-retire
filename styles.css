@@ -1,0 +1,36 @@
+body {
+    background-color:rgb(197, 164, 81)
+}
+
+
+li {
+    display: inline-block;
+    float: left;
+    border-right: 1px dashed;
+}
+
+ul {
+    list-style: none;
+    background-color:cornsilk;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color:rgb(149, 216, 216)
+}
+
