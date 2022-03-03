@@ -40,3 +40,39 @@ main, h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.breadcolumnleft {
+    background-color: aliceblue;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    display: inline-block;
+    float: left;
+
+   
+}
+
+.pastriescolumnmiddle {
+    background-color: rgb(62, 96, 126);
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.componentscolumnright {
+    background-color: rgb(125, 144, 161);
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    display: inline-block;
+    ;
+   
+}
+
+
+
+
