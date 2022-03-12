@@ -1,9 +1,10 @@
 body {
-    background-color:rgb(206, 172, 86)
+    background-color: #ffc03a
 }
 
 main aside img {
     border-radius: 4em;
+    ;
 }
 
 li {
@@ -38,12 +39,13 @@ li a:hover {
 
 main, h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .breadcolumnleft {
     background-color: aliceblue;
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 175px;
     border-radius: 10%;
     display: inline-block;
     float: left;
@@ -55,8 +57,8 @@ main, h1 {
 
 .pastriescolumnmiddle {
     background-color: rgb(62, 96, 126);
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 175px;
     border-radius: 10%;
     display: inline-block;
     float: left;
@@ -69,8 +71,8 @@ main, h1 {
 
 .componentscolumnright {
     background-color: rgb(125, 144, 161);
-    width: 150px;
-    height: 150px;
+    width: 225px;
+    height: 175px;
     border-radius: 10%;
     display: inline-block;
     text-align: center;
@@ -78,15 +80,30 @@ main, h1 {
    
 }
 
-.testlogo {
+.banner {
     margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
     
 }
 
 .mainboxes {
     align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    display: block;
+    border: 2rem;
+    padding: 2rem
+    
+    
 }
 
-
-
+h2 
 
