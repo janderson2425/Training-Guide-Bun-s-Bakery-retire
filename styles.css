@@ -1,10 +1,22 @@
 body {
     background-color: #ffc03a
+   
 }
 
 main aside img {
     border-radius: 4em;
     ;
+}
+
+
+.banner {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  
+    
 }
 
 li {
@@ -42,23 +54,41 @@ main, h1 {
     
 }
 
+
+.flex-container {
+    align-content:center;
+    display:block; 
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 50%;
+    border: 2rem;
+    padding: 2rem;
+ 
+    
+}
+
+
 .breadcolumnleft {
     background-color: aliceblue;
-    width: 225px;
-    height: 175px;
+    width: 235px;
+    height: 195px;
     border-radius: 10%;
     display: inline-block;
     float: left;
     text-align: center;
     margin-bottom: 20px;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
    
 }
 
 .pastriescolumnmiddle {
     background-color: rgb(62, 96, 126);
-    width: 225px;
-    height: 175px;
+    width: 235px;
+    height: 195px;
     border-radius: 10%;
     display: inline-block;
     float: left;
@@ -66,44 +96,37 @@ main, h1 {
     margin-right: 20px;
     text-align:center;
     margin-bottom: 20px;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
 }
 
 .componentscolumnright {
     background-color: rgb(125, 144, 161);
-    width: 225px;
-    height: 175px;
+    width: 235px;
+    height: 195px;
     border-radius: 10%;
     display: inline-block;
     text-align: center;
     margin-bottom: 20px;
-   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
 }
 
-.banner {
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-  
-    
-}
+/*beginning breads page;copied flex container from landing page*/
 
-.mainboxes {
-    align-content: center;
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
+ .flex-containerb {
+    align-content:center;
+    display:flex; 
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right:300px;
     margin-top: 5rem;
     margin-bottom: 5rem;
     width: 50%;
-    display: block;
     border: 2rem;
-    padding: 2rem
-    
-    
-}
+    padding: 2rem;
+   
+ }
 
-h2 
 
+ 
