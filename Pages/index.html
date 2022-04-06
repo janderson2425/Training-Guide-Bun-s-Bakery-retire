@@ -12,21 +12,58 @@
 
 <body>
     
+
+ <header>
+   <nav class="navbar">
+
+    <!--logo picture will show in order that you place the code in the anchor tag <a>; note* below I placed the img within 
+      the <a> tag;so if you place the 'img src' after 'Buns Buns Bakery' it will show on thew right-->
+    
+     <a href="/Pages/index.html" class="nav-branding"> 
+        <img src="/bunlogo.png" alt="logo">   <!--placed img here so it would be on the left-->    
+      
+        Buns Buns Bakery <!----if you move img to be after this but before the <a> tsg then it will move to the <right-->
+              </a>
+        
+            
+            <ul class="nav-menu">
+
+              <li class="nav-item">
+                <a href="/Pages/index.html" class="nav-link">Home</a>
+              </li>  
+
+              <li class="nav-item">
+                <a href="/Pages/basicbreadprocess.html" class="nav-link"> Basic Bread Process: 7 Easy Steps</a>
+              </li>  
+
+              <li class="nav-item">
+                <a href="/Pages/breads.html" class="nav-link">Breads</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="/Pages/pastries.html" class="nav-link">Pastries</a>
+              </li>  
+
+              <li class="nav-item">
+                <a href="/Pages/complimentarycomponents.html"class="nav-link" >Complimentary Components</a>
+              </li>
+
+            </ul>   
+
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+
+   </nav>
+  </header>
+
+    <!--NOTHING WILL WORK IF YOU DON'T INSERT YOUR script.js!!-->
+    <script src="script.js"></script>
+
   
-    <header>
-        <nav>
-            <ul class="nav"> 
-                <li><a href="/Pages/index.html">Home</a></li>
-                <li><a href="/Pages/basicbreadprocess.html"> Basic Bread Process: 7 Easy Steps</a></li>
-                <li><a href="/Pages/breads.html">Breads</a></li>
-                <li><a href="/Pages/pastries.html">Pastries</a></li>
-                <li><a href="/Pages/complimentarycomponents.html">Complimentary Components</a></li>
-	        </ul>
-        </nav>
-    </header>  
-    <!--the main is the PRIMARY CONTENT of the page; what we care the most about-->
-    
-    
+
     
     <main>
         <aside>
@@ -38,7 +75,7 @@
 
 <!--Place 'SECTION' tag here: 3 boxes 'breads', 'pastries', 'additional components'? you can place a banner and an H1 if you want-->
 
-        <h1>Bun's Bun's Bakery: Instructional Guide
+        <h1>Instructional Guide
           </h1>
 
         <h2>
@@ -54,19 +91,23 @@
         <div class="breadcolumnleft">
           <h2><a href="/Pages/breads.html">Breads</a></h2>
              <p><img src="/Images/Landing img page/mainbread.png" alt="different breads" width="200" height="100"/></p>
+        </div>  
        </div>
 
        <div>
         <div class="pastriescolumnmiddle">
           <h2><a href="/Pages/pastries.html">Pastries</a></h2>
           <p><img src="/Images/Landing img page/mainbread.png" alt="different breads" width="200" height="100"/></p>
+        </div>  
        </div>
 
        <div>
         <div class="componentscolumnright">
           <h2><a href="/Pages/complimentarycomponents.html">Complimentary Components</a></h2>
           <p><img src="/Images/Landing img page/mainbread.png" alt="different breads" width="200" height="100"/></p>
-        </div>
+        </div>  
+       </div>
+      
       </div>  
 
 

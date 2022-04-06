@@ -14,48 +14,84 @@
     
 
     <header>
-        <nav>
-            <ul class="nav"> 
-                <li><a href="/Pages/index.html">Home</a></li>
-                <li><a href="/Pages/basicbreadprocess.html"> Basic Bread Process: 7 Easy Steps</a></li>
-                <li><a href="/Pages/breads.html">Breads</a></li>
-                <li><a href="/Pages/pastries.html">Pastries</a></li>
-                <li><a href="/Pages/complimentarycomponents.html">Complimentary Components</a></li>
-	        </ul>
+        <nav class="navbar">
+
+            <!--jpg below doesn't show so adjust later; show namw but no pic-->
+            
+            <a href="/Pages/index.html" class="nav-branding"> 
+              <img src="/bunlogo.png" alt="logo">   <!--placed img here so it would be on the left-->    
+            
+              Buns Buns Bakery <!----if you move img to be after this but before the <a> tsg then it will move to the <right-->
+                    </a>
+                
+                    
+                    <ul class="nav-menu">
+        
+                      <li class="nav-item">
+                        <a href="/Pages/index.html" class="nav-link">Home</a>
+                      </li>  
+        
+                      <li class="nav-item">
+                        <a href="/Pages/basicbreadprocess.html" class="nav-link"> Basic Bread Process: 7 Easy Steps</a>
+                      </li>  
+        
+                      <li class="nav-item">
+                        <a href="/Pages/breads.html" class="nav-link">Breads</a>
+                      </li>
+        
+                      <li class="nav-item">
+                        <a href="/Pages/pastries.html" class="nav-link">Pastries</a>
+                      </li>  
+        
+                      <li class="nav-item">
+                        <a href="/Pages/complimentarycomponents.html"class="nav-link" >Complimentary Components</a>
+                      </li>
+        
+                    </ul>   
+        
+                    <div class="hamburger">
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                      <span class="bar"></span>
+                    </div>
         </nav>
     </header>  
 
-
+  <!--NOTHING WILL WORK IF YOU DON'T INSERT YOUR script.js!!-->
+  <script src="script.js"></script>
 
   <h1>Breads</h1>
 
+ <div class="containerb">
+  <main class="grid">
 
-  <main class="flex-containerb">
-            
-    <div class="card1">
+     <article>
         <img src="/Images/Landing img page/mainbread.png" width="400" height="250">
-        <div class="cardRow">
-            <h2>Naan</h2>
-        </div>
-    </div>
+        <div class="text">
+          
+          <a href="/Pages/naanfinal.html"><button>Naan</button></a>
+        </div>  
+     </article>        
+       
+   
 
-    <div class="card2">
-        <img src="/Images/Landing img page/mainbread.png" width="400" height="250">
-        <div class="cardRow">
-            <h2>Milk Rolls</h2>
-        </div>
-    </div>
+     <article>
+       <img src="/Images/Landing img page/mainbread.png" width="400" height="250">
+       <div class="text">
+        <a href="/Pages/milkbreadfinal.html"><button>Milk Bread</button></a>
+       </div>  
+     </article>       
 
-    <div class="card3">
-        <img src="/Images/Landing img page/mainbread.png"width="400" height="250" >
-        <div class="cardRow">
-            <h2>Bagels</h2>
-        </div>
-    </div>
+     <article>
+      <img src="/Images/Landing img page/mainbread.png" width="400" height="250">
+      <div class="text">
+        <a href="/Pages/bagelsfinal.html"><button>Bagels</button></a>
+      </div>  
+   </article>       
 
-</main>
+  </main>
 
-</div>
+ </div>
 
 
 
