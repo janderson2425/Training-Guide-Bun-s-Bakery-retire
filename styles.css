@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ffc03a
+    background-color: #ffc03a;
    
 }
 
@@ -19,6 +19,14 @@ body {
 .navbar {
     background-color: cornsilk ;
 
+}
+
+
+/*below is start of DIY banner; DON'T INSERT PADDING*/
+.row {
+    float: left;
+    width: 25%;
+    
 }
 
 
@@ -137,12 +145,26 @@ nav a img{
     }
 
 
+
 }
 
 
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(172, 57, 57);
+    padding: 2rem;
+    font-size: 40px;
+    text-align: center;
+    
+    
+}
+
+
+
+.testlogo{
+    padding-left: 1rem;
+    padding-right: 1rem;
     
 }
 
@@ -150,36 +172,44 @@ h1 {
 
 div.flex-container {
     height: 25%;
-    width: 75%;
+    width: 100%;
     
    
-    background-color:cornflowerblue;
+    
 
 }
 
 .flex-container {
     align-content:center;
     display:flex; 
+    /*added 'flex-wrap:wrap below and it fixed home page*/
+    flex-wrap: wrap;
     justify-content:space-around;
     margin-left: auto;
     margin-right:auto;
     margin-top: 5rem;
     margin-bottom: 5rem;
     width: 60%;
-    border: 2rem;
+    border: 1rem;
     padding: 2rem;
-    background-color: aqua;
+    border-style:double;
+    border-color: rgb(189, 97, 97);
     
- 
+}
+
+.flex-container img{
+    border-radius: 50%;
+    margin-top: 1rem;
+    border-style: groove;
     
 }
 
 
 .breadcolumnleft {
-    background-color: aliceblue;
-    width: 335px;
-    height: 295px;
-    border-radius: 10%;
+    background-color: rgb(173, 184, 132);
+    width: 555px;
+    height: 375px;
+    border-radius: 20%;
     display: inline-block;
     float: left;
     text-align: center;
@@ -190,14 +220,15 @@ div.flex-container {
     font-size: 18px;
     
     
+    
    
 }
 
 .pastriescolumnmiddle {
-    background-color: rgb(62, 96, 126);
-    width: 335px;
-    height: 295px;
-    border-radius: 10%;
+    background-color: rgb(173, 184, 132);
+    width: 555px;
+    height: 375px;
+    border-radius: 20%;
     display: inline-block;
     float: left;
     margin-left: 50px;
@@ -211,10 +242,10 @@ div.flex-container {
 }
 
 .componentscolumnright {
-    background-color: rgb(125, 144, 161);
-    width: 335px;
-    height: 295px;
-    border-radius: 10%;
+    background-color: rgb(173, 184, 132);
+    width: 555px;
+    height: 375px;
+    border-radius: 20%;
     display: inline-block;
     text-align: center;
     margin-top: 20px;
