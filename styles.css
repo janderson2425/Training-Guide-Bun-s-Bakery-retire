@@ -218,11 +218,11 @@ div.flex-container {
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
-    
-    
-    
    
 }
+
+
+
 
 .pastriescolumnmiddle {
     background-color: rgb(173, 184, 132);
@@ -269,6 +269,7 @@ div.flex-container {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 60px;
     align-items: center;
+    
 }
 
 
@@ -335,7 +336,10 @@ div.flex-container {
 @media (max-width: 500px){
     .grid{
         grid-template-columns: repeat(1, 1fr);
+       
     }
+
+    
 
     .grid > article{
         text-align: center;
@@ -377,3 +381,17 @@ div.flex-container {
     background-color:rgb(110, 123, 145);
     margin-top: 20px;
 }
+
+footer {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(86, 83, 83);
+    padding: 2rem;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+
+
+
+
