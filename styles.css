@@ -261,7 +261,7 @@ div.flex-container {
 /* all below is start of other html docs*/  
  
 
-
+/*.grid AND media query 800px below stay together 4/18/22*/
 
 .grid{
     margin: 80px;
@@ -269,9 +269,24 @@ div.flex-container {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 60px;
     align-items: center;
-    
+    display: flex;
+    flex-direction: row;
+   
 }
 
+@media (max-width: 800px) {
+    .grid {
+        flex-direction: column;
+    }
+}
+
+
+
+/* added padding below to adjust unbalanced sides 4/18/22*/
+.grid {
+    padding-left: 130px;
+   
+   }
 
 
 .grid > article{
@@ -391,7 +406,62 @@ footer {
     
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
 
+@media (max-width: 768px){
+    .center {
+        width: 95%;
+      
+    }
+}
 
+.h2homeprocess:hover {
+    background-color: rgb(171, 195, 188);
+    border-radius: 20px;
+    
+}
+
+.h2homeprocess {
+    margin-left: 30px;
+    color: rgb(23, 123, 68);
+    border-style:solid;
+    border-color: black;
+    background-color: cornsilk;
+    border-width: 2px;
+}
+
+.breadcolumnleft, .pastriescolumnmiddle, .componentscolumnright, h2 a:hover {
+    
+    border-radius: 10px;
+    color: rgb(220, 231, 200);
+    border-style:solid;
+    border-color: black;
+    background-color: rgb(195, 179, 114);
+    border-width: 3px;
+    padding: 1px;
+    
+ 
+
+}
+
+.instructions p {
+    font-size: 25px;
+
+}
+
+button {
+    font-size: large;
+    margin-left: 2rem;
+}
+ #myDIV ul{ 
+     font-size: 20px;
+
+ }
 
 
