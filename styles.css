@@ -312,6 +312,8 @@ div.flex-container {
 
 .text{
     padding:10px 20px 20px;
+    
+    
 }
 
 .text h2{
@@ -324,6 +326,7 @@ div.flex-container {
     border: none;
     color:rgb(19, 18, 19) ;
     padding: 10px;
+    margin:auto;
     width: 50%;
     font-weight: 600;
     font-size: 28px;
