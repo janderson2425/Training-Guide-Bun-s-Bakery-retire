@@ -107,7 +107,9 @@ nav a img{
     background-color: black;
 }
 
-@media(max-width:768px){
+/* #1*/
+
+@media(max-width:768px) and (min-width: 414px){
     .hamburger{
         display: block;
     }
@@ -273,7 +275,7 @@ div.flex-container {
     flex-direction: row;
    
 }
-
+/* #2 */
 @media (max-width: 800px) {
     .grid {
         flex-direction: column;
@@ -345,13 +347,9 @@ div.flex-container {
 
 
 
-@media (max-width: 768px){
-    .grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+/* #4 */
 
-@media (max-width: 500px){
+@media (min-width: 500px){
     .grid{
         grid-template-columns: repeat(1, 1fr);
        
@@ -416,6 +414,8 @@ footer {
   width: 50%;
   height: auto;
 }
+
+/* #5 */
 
 @media (max-width: 768px){
     .center {
