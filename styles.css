@@ -228,13 +228,13 @@ div.flex-container {
 
 .pastriescolumnmiddle {
     background-color: rgb(173, 184, 132);
-    width: 485px;
+    width: 455px;
     height: 375px;
     border-radius: 20%;
     display: inline-block;
     float: left;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     text-align:center;
     margin-top: 20px;
     margin-bottom: 20px;
