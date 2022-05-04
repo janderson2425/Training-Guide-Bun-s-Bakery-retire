@@ -228,7 +228,7 @@ div.flex-container {
 
 .pastriescolumnmiddle {
     background-color: rgb(173, 184, 132);
-    width: 555px;
+    width: 455px;
     height: 375px;
     border-radius: 20%;
     display: inline-block;
@@ -243,7 +243,6 @@ div.flex-container {
     
 }
 
-div .pastriescolumnmiddle { width: auto;}
 
 .componentscolumnright {
     background-color: rgb(173, 184, 132);
