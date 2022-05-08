@@ -2,6 +2,8 @@
 
 Thank you to my class mentor Zach Woodward for showing up every Wednesday and delivering pragmatic mentoring.
 
+PROJECT LOCATION ON GITHUB: janderson2425/Training-Guide-Bun-s-Bakery-retire
+
 Project includes a README file that explains the following:
 
 A one paragraph or longer description of what your project is.
