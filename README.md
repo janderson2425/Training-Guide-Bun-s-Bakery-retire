@@ -1,6 +1,6 @@
 # Training-Guide-Bun-s-Bakery
 
-Thank you to my class mentor Zach Woodward for showing up every Wednesday and delivering pragmatic style of mentoring.
+Thank you to my class mentor Zach Woodward for showing up every Wednesday and delivering pragmatic mentoring.
 
 Project includes a README file that explains the following:
 
@@ -14,7 +14,7 @@ Which 3+ features you have included from the below lists to meet the requirement
 
 If needed, any special instructions required for the reviewer to run your project.
 
-The code for my project can be found on GitHub janderson2425 and is titled "Training-Guide-Bun-s-Bakery-retire". I have tested my project on my mentors computer. Due to the the location of the index.html, I adjusted all file paths and image paths from absolute to relative to resolve display issues. I used GitHub Pages to host my site. I have over 29 commits that have been submitted over the 3 month course.
+The code for my project can be found on GitHub janderson2425 and is titled "Training-Guide-Bun-s-Bakery-retire". I have tested my project on my mentor's computer. Due to the the location of the index.html, I adjusted all file paths and image paths from absolute to relative to resolve display issues. I used GitHub Pages to host my site. I have over 29 commits that have been submitted over the 3 month course.
 
-The readme should be called readme.md or readme.txt and located in the top level of your project folder so that GitHub automatically displays it when viewing your project on GitHub
+I downloaded the same live server that was used in the Pluralsight courses to actively display my website and check how the code was looking as I was building it. I then used GitHub Pages to further see how my website was looking.
 
